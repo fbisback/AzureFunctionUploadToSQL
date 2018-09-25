@@ -5,7 +5,7 @@ BEGIN TRY
     ALTER TABLE dbo.[File] SET (SYSTEM_VERSIONING = OFF)
 END TRY
 BEGIN CATCH
-	-- Table does not exists: just ignoe the error
+	-- Table does not exists: just ignore the error
 END CATCH
 GO
 
